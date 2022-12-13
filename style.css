@@ -4,5 +4,8 @@ Template: twentytwentythree
 */
 
 .jonathandavidson-info--header {
-  background-color: black;
+  background-image: linear-gradient(#1E1D1E, #282D33);
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
