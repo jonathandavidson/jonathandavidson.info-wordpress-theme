@@ -17,7 +17,7 @@
   <!-- wp:group {"className":"jonathandavidson-info--site-title-content","layout":{"type":"contrained"}} -->
   <div class="jonathandavidson-info--site-title-content">
     <h1><?php echo get_option( 'blogname' ); ?></h1>
-    <p>:: <?php echo get_option( 'blogdescription' ); ?></p>
+    <p>:&nbsp;:&nbsp;&nbsp;<?php echo get_option( 'blogdescription' ); ?></p>
   </div>
   <!-- /wp:group -->
 </a>

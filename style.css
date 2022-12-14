@@ -11,6 +11,18 @@ Template: twentytwentythree
   padding-bottom: 1rem;
 }
 
+
+
+.jonathandavidson-info--header a
+.jonathandavidson-info--header a:link,
+.jonathandavidson-info--header a:visited,
+.jonathandavidson-info--header a:focus,
+.jonathandavidson-info--header a:hover,
+.jonathandavidson-info--header a:active {
+  color: var(--wp--preset--color--base);
+  text-decoration: none;
+}
+
 .jonathandavidson-info--site-title {
   display: flex;
   text-decoration: none;
@@ -20,4 +32,14 @@ Template: twentytwentythree
 .jonathandavidson-info--site-title-content > h1,
 .jonathandavidson-info--site-title-content > p {
   margin: 0;
+  font-family: var(--wp--preset--font-family--poppins);
+}
+
+.jonathandavidson-info--site-title-content > h1 {
+  font-size: var(--wp--preset--font-size--x-large);
+}
+
+.jonathandavidson-info--site-title-content > p {
+  font-size: var(--wp--preset--font-size--medium);
+  font-weight: 300;
 }
