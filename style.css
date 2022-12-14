@@ -9,9 +9,12 @@ Template: twentytwentythree
   border-bottom: .75rem solid #1F1F20;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  align-items: center;
 }
 
-
+.jonathandavidson-info--header .jonathandavidson-info--header-flex-container {
+  align-items: baseline;
+}
 
 .jonathandavidson-info--header a
 .jonathandavidson-info--header a:link,
@@ -23,10 +26,10 @@ Template: twentytwentythree
   text-decoration: none;
 }
 
-.jonathandavidson-info--site-title {
+a.jonathandavidson-info--site-title {
   display: flex;
   text-decoration: none;
-  color: var(--wp--preset--color--base);
+  align-items: center;
 }
 
 .jonathandavidson-info--site-title-content > h1,
