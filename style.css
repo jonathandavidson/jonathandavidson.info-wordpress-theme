@@ -46,3 +46,17 @@ a.jonathandavidson-info--site-title {
   font-size: var(--wp--preset--font-size--medium);
   font-weight: 300;
 }
+
+main.jonathandavidson-info--main-frontpage {
+  padding: 0;
+  margin-block-start: 0;
+}
+
+div.jonathandavidson-info--cloud-banner {
+  display: flex;
+  margin-top: 0;
+  margin-block-start: 0;
+  min-height: 350px;
+  background: rgb(174,228,255);
+  background: linear-gradient(0deg, rgba(174,228,255,1) 0%, rgba(137,225,253,1) 100%);
+}
