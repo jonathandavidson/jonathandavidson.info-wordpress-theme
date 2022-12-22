@@ -99,10 +99,35 @@ div.jonathandavidson-info--cloud-banner {
   background-position-y: 70%;
 }
 
-.jonathandavidson-info--cloud-banner--cloud-layer-inner {
+.jonathandavidson-info--cloud-banner--cloud-layer-inner.is-layout-flex {
   min-height: 350px;
   width: 100%;
   animation-duration: 20s;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.jonathandavidson-info--cloud-banner--cloud-layer-inner > div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jonathandavidson-info--cloud-banner--cloud-layer-inner > div > ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: .5em 1em;
+  max-width: 420px;
+}
+
+.jonathandavidson-info--cloud-banner--cloud-layer-inner > div > ul > li {
+  max-width: 200px;
 }
 
 @keyframes scroll-background {
