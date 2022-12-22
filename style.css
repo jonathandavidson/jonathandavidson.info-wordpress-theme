@@ -64,7 +64,7 @@ div.jonathandavidson-info--cloud-banner {
 .jonathandavidson-info--cloud-banner--cloud-layer-inner {
   width: 100%;
   background-image: url("./assets/images/cloud.png");
-  background-position: 0% 50%;
+  background-position-x: 0%;
   background-repeat: no-repeat;
   animation-name: scroll-background;
   animation-timing-function: linear;
@@ -75,18 +75,28 @@ div.jonathandavidson-info--cloud-banner {
   background-size: 15%;
   animation-duration: 50s;
   animation-delay: -20s;
+  background-position-y: 10%;
 }
 
-.jonathandavidson-info--cloud-banner--cloud-layer > .jonathandavidson-info--cloud-banner--cloud-layer {
+.jonathandavidson-info--cloud-banner--cloud-layer > div {
+  background-size: 20%;
+  animation-duration: 40s;
+  animation-delay: -40s;
+  background-position-y: 25%;
+}
+
+.jonathandavidson-info--cloud-banner--cloud-layer > div > div {
   background-size: 25%;
   animation-duration: 30s;
   animation-delay: -20s;
+  background-position-y: 40%;
 }
 
-.jonathandavidson-info--cloud-banner--cloud-layer > .jonathandavidson-info--cloud-banner--cloud-layer > .jonathandavidson-info--cloud-banner--cloud-layer {
+.jonathandavidson-info--cloud-banner--cloud-layer > div > div > div {
   background-size: 30%;
   animation-duration: 30s;
   animation-delay: -30s;
+  background-position-y: 70%;
 }
 
 .jonathandavidson-info--cloud-banner--cloud-layer-inner {
@@ -97,9 +107,9 @@ div.jonathandavidson-info--cloud-banner {
 
 @keyframes scroll-background {
   from {
-    background-position: -50% 50%;
+    background-position-x: -50%;
   }
   to {
-    background-position: 150% 50%;
+    background-position-x: 150%;
   }
 }
