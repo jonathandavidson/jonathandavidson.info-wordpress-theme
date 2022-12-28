@@ -2,9 +2,12 @@
 Theme Name: Jonathan Davidson's Theme
 Template: twentytwentythree
 */
+:root {
+  --template-gradient: linear-gradient(#1E1D1E, #282D33);
+}
 
 .jonathandavidson-info--header {
-  background-image: linear-gradient(#1E1D1E, #282D33);
+  background-image: var(--template-gradient);
   color: var(--wp--preset--color--base);
   border-bottom: .75rem solid #1F1F20;
   padding-top: 1rem;
@@ -55,7 +58,7 @@ main.jonathandavidson-info--main-frontpage {
 div.jonathandavidson-info--cloud-banner {
   display: flex;
   margin-top: 0;
-  margin-block-start: 0;
+  margin-block-start: 0 !important;
   background: rgb(174,228,255);
   background: linear-gradient(0deg, rgba(174,228,255,1) 0%, rgba(137,225,253,1) 100%);
 }
@@ -112,6 +115,7 @@ div.jonathandavidson-info--cloud-banner {
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
+  align-content: stretch;
 }
 
 .jonathandavidson-info--cloud-banner--cloud-layer-inner > div > ul {
@@ -128,6 +132,18 @@ div.jonathandavidson-info--cloud-banner {
 
 .jonathandavidson-info--cloud-banner--cloud-layer-inner > div > ul > li {
   max-width: 200px;
+}
+
+.jonathandavidson-info--footer {
+  background-image: var(--template-gradient);
+  color: var(--wp--preset--color--base);
+  border-top: 1.75rem solid #4f4f4f;
+}
+
+.jonathandavidson-info--footer > div {
+  border: none;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 @keyframes scroll-background {
