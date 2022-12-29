@@ -10,6 +10,7 @@
 <div class="wp-block-group jonathandavidson-info--footer">
 	<!-- wp:group {"align":"wide"} -->
 	<div class="wp-block-group alignwide jonathandavidson-info--footer">
+		<!-- wp:pattern {"slug":"jonathandavidson-info/social-links"} /-->
 		<!-- wp:paragraph {"align":"right"} -->
 		<p class="has-text-align-right">
 			&copy; Copyright <?php echo date('Y'); ?> Jonathan Davidson

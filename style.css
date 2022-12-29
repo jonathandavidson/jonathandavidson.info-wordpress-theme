@@ -137,13 +137,25 @@ div.jonathandavidson-info--cloud-banner {
 .jonathandavidson-info--footer {
   background-image: var(--template-gradient);
   color: var(--wp--preset--color--base);
-  border-top: 1.75rem solid #4f4f4f;
+  border-top: 1.75rem solid #303030;
 }
 
 .jonathandavidson-info--footer > div {
   border: none;
   padding-top: 3rem;
   padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.jonathandavidson-info--social-links {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+
+.jonathandavidson-info--social-links > li {
+  padding: 0;
 }
 
 @keyframes scroll-background {
