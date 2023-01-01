@@ -1,41 +1,41 @@
 <?php
 /**
- * Title: Call to action
- * Slug: twentytwentythree/cta
- * Categories: featured
- * Keywords: Call to action
- * Block Types: core/buttons
+ * Title: Call to Action
+ * Slug: jonathandavidson-info/call-to-action
+ * Categories: footer
+ * Block Types: core/template-part/footer
  */
 ?>
-<!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide">
-	<!-- wp:column -->
-	<div class="wp-block-column">
-		<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
-		<p class="has-x-large-font-size" style="line-height:1.2"><?php echo esc_html_x( 'Want to hire me?', 'sample content for call to action', 'twentytwentythree' ); ?>
-		</p>
-		<!-- /wp:paragraph -->
-
-		<!-- wp:buttons -->
-		<div class="wp-block-buttons">
-			<!-- wp:button {"fontSize":"small"} -->
-			<div class="wp-block-button has-custom-font-size has-small-font-size">
-				<a class="wp-block-button__link wp-element-button">
-				<?php echo esc_html_x( 'Get In Touch', 'sample content for call to action button', 'twentytwentythree' ); ?>
-				</a>
-			</div>
-			<!-- /wp:button -->
-		</div>
-		<!-- /wp:buttons -->
-	</div>
-	<!-- /wp:column -->
-
-	<!-- wp:column -->
-	<div class="wp-block-column">
-		<!-- wp:separator -->
-		<hr class="wp-block-separator has-alpha-channel-opacity"/>
-		<!-- /wp:separator -->
-	</div>
-	<!-- /wp:column -->
+<!-- wp:group {"className":"jonathandavidson-info--no-padding jonathandavidson-info--dark alignwide","layout":{"type":"flex"}} -->
+<div class="wp-block-group jonathandavidson-info--call-to-action jonathandavidson-info--no-padding jonathandavidson-info--dark alignwide">
+  <div>
+    <form>
+      <div>
+        <h3>Let's get in touch.</h3>
+        <p>I'd love to hear your ideas and show you how I can help bring them to life!</p>
+      </div>
+      <!-- wp:button {"fontSize":"small"} -->
+      <div class="wp-block-button has-custom-font-size has-small-font-size">
+        <a class="wp-block-button__link wp-element-button">
+          Email Me
+        </a>
+      </div>
+      <!-- /wp:button -->
+    </form>
+    <form>
+      <div>
+        <h3>Subscribe to my newsletter</h3>
+        <p>Get my latest blog posts sent to your inbox.</p>
+      </div>
+      <input type="email" name="email" placeholder="email address">
+      <!-- wp:button {"fontSize":"small"} -->
+      <div class="wp-block-button has-custom-font-size has-small-font-size">
+        <a class="wp-block-button__link wp-element-button">
+          Subscribe
+        </a>
+      </div>
+      <!-- /wp:button -->
+    </form>
+  </div>
 </div>
-<!-- /wp:columns -->
+<!-- /wp:group -->

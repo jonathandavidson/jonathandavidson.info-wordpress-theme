@@ -616,7 +616,8 @@
 		"elements": {
 			"button": {
 				"border": {
-					"radius": "0"
+					"radius": "0",
+					"width": "5px"
 				},
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
