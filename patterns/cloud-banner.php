@@ -22,21 +22,7 @@
             <!-- wp:group {"className":"jonathandavidson-info--cloud-banner--cloud-layer-inner","layout":{"type":"flex"}} -->
             <div class="jonathandavidson-info--cloud-banner--cloud-layer-inner">
               <div>
-                <h3>Backend</h3>
-                <ul>
-                  <li>
-                    <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/node-logo.png' ) ); ?>" alt="NodeJS" class="wp-image-170" width="170"/>
-                  </li>
-                  <li>
-                    <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/python-logo.png' ) ); ?>" alt="Python" class="wp-image-214" width="214"/>
-                  </li>
-                  <li>
-                    <img style="position: relative; margin-top: -2em;" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/java-logo.png' ) ); ?>" alt="Java" class="wp-image-170" width="170"/>
-                  </li>              
-                </ul>
-              </div>
-              <div>
-                <h3>Frontend</h3>
+                <h3>Elegent, modern frontends</h3>
                 <ul>
                   <li>
                     <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/react-logo.png' ) ); ?>" alt="React" class="wp-image-187" width="187"/>
@@ -48,6 +34,20 @@
                     <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/html-logo.png' ) ); ?>" alt="HTML" class="wp-image-68" width="68"/>
                     <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/css-logo.png' ) ); ?>" alt="CSS" class="wp-image-68" width="68"/>
                   </li>
+                </ul>
+              </div>
+              <div>
+                <h3>Secure, streamlined backends</h3>
+                <ul>
+                  <li>
+                    <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/node-logo.png' ) ); ?>" alt="NodeJS" class="wp-image-170" width="170"/>
+                  </li>
+                  <li>
+                    <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/python-logo.png' ) ); ?>" alt="Python" class="wp-image-214" width="214"/>
+                  </li>
+                  <li>
+                    <img style="position: relative; margin-top: -2em;" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/java-logo.png' ) ); ?>" alt="Java" class="wp-image-170" width="170"/>
+                  </li>              
                 </ul>
               </div>
             </div>
