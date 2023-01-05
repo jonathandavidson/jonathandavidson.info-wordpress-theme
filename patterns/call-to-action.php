@@ -27,14 +27,16 @@
         <h3>Subscribe to my newsletter</h3>
         <p>Get my latest blog posts sent to your inbox.</p>
       </div>
-      <input type="email" name="email" placeholder="email address">
-      <!-- wp:button {"fontSize":"small"} -->
-      <div class="wp-block-button has-custom-font-size has-small-font-size">
-        <a class="wp-block-button__link wp-element-button">
-          Subscribe
-        </a>
+      <div>
+        <input type="email" name="email" placeholder="email address">
+        <!-- wp:button {"fontSize":"small"} -->
+        <div class="wp-block-button has-custom-font-size has-small-font-size">
+          <a class="wp-block-button__link wp-element-button">
+            Subscribe
+          </a>
+        </div>
+        <!-- /wp:button -->
       </div>
-      <!-- /wp:button -->
     </form>
   </div>
 </div>

@@ -168,19 +168,43 @@ ul.jonathandavidson-info--social-links {
 }
 
 .jonathandavidson-info--call-to-action {
-  width: 100%;
+  padding: 3rem;
 }
 
 .jonathandavidson-info--call-to-action > div {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 2.5rem;
 }
 
 .jonathandavidson-info--call-to-action > div > form {
-  width: 25rem;
-  padding: 1.25em 2.375em;
-  flex-wrap: wrap;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem
+}
+
+.jonathandavidson-info--call-to-action > div > form > div > input[type="email"] {
+  margin-bottom: 1rem;
+  width: 15rem;
+}
+
+.jonathandavidson-info--call-to-action > div > form:first-of-type {
+  width: 30rem;
+}
+
+.jonathandavidson-info--call-to-action h3 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.jonathandavidson-info--call-to-action button, .jonathandavidson-info--call-to-action .wp-block-button__link {
+  word-break: normal;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  padding: .25rem 1.5rem;
 }
 
 .jonathandavidson-info--dark {
